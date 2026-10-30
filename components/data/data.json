@@ -1,0 +1,575 @@
+{
+  "common": {
+    "Header": {
+      "logo": "/logo/logo.webp",
+      "logo_text": "AUREVIA",
+      "logo_subtext": "REAL ESTATE & DEVELOPERS",
+      "links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Our Properties",
+          "href": "#properties"
+        },
+        {
+          "name": "Highlights",
+          "href": "#stats"
+        },
+        {
+          "name": "Testimonials",
+          "href": "#testimonials"
+        },
+        {
+          "name": "Partners",
+          "href": "#clients"
+        },
+        {
+          "name": "Insights",
+          "href": "#blogs"
+        }
+      ],
+      "button_text": "Contact Us",
+      "button_link": "#contact"
+    },
+    "Footer": {
+      "logo": "/logo/white-logo.webp",
+      "background": "/img/footerbg.webp",
+      "logo_text": "AUREVIA",
+      "logo_subtext": "REAL ESTATE & DEVELOPERS",
+      "description": "Aurevia is an elite luxury real estate development and architectural firm committed to delivering iconic skyline landmarks, ultra-modern residential penthouses, private luxury villas, and sustainable Grade-A commercial complexes.",
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Aurevia",
+          "href": "#about"
+        },
+        {
+          "name": "Luxury Properties",
+          "href": "#properties"
+        },
+        {
+          "name": "Client Stories",
+          "href": "#testimonials"
+        },
+        {
+          "name": "Real Estate Insights",
+          "href": "#blogs"
+        },
+        {
+          "name": "Get In Touch",
+          "href": "#contact"
+        }
+      ],
+      "our_services": [
+        {
+          "name": "Ultra-Luxury Sky Mansions",
+          "href": "#properties"
+        },
+        {
+          "name": "Architectural Villa Estates",
+          "href": "#properties"
+        },
+        {
+          "name": "Prime Waterfront Residences",
+          "href": "#properties"
+        },
+        {
+          "name": "Grade-A Commercial Towers",
+          "href": "#properties"
+        },
+        {
+          "name": "Portfolio Advisory & Management",
+          "href": "#contact"
+        }
+      ],
+      "headings": {
+        "quick_links": "Quick Links",
+        "our_services": "Featured Developments",
+        "contact": "Headquarters"
+      },
+      "contact": {
+        "address": "123 Education Lane, New York, NY 10001",
+        "email": "info@xyz.com",
+        "phone": "+100000000000",
+        "phone_secondary": "",
+        "hours": "Mon - Sat: 9:00 AM - 7:30 PM",
+        "hours_secondary": "Sunday: By Private VIP Appointment"
+      },
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow",
+      "socials": [
+        {
+          "name": "Facebook",
+          "href": "https://facebook.com"
+        },
+        {
+          "name": "Instagram",
+          "href": "https://instagram.com"
+        },
+        {
+          "name": "Linkedin",
+          "href": "https://linkedin.com"
+        },
+        {
+          "name": "Youtube",
+          "href": "https://youtube.com"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "Aurevia – REAL ESTATE & DEVELOPERS",
+      "pageName": "home",
+      "metadata": {
+        "title": "Aurevia – REAL ESTATE & DEVELOPERS | Ultra-Luxury Living & Iconic Architecture",
+        "description": "Explore premier residential sky villas, iconic penthouses, architectural estates, and commercial towers by Aurevia – REAL ESTATE & DEVELOPERS."
+      },
+      "components": [
+        {
+          "key": "HeroSection",
+          "component": "Hero",
+          "sectionKey": "hero"
+        },
+        {
+          "key": "AboutSection",
+          "component": "About",
+          "sectionKey": "about"
+        },
+        {
+          "key": "PropertiesSection",
+          "component": "Properties",
+          "sectionKey": "properties"
+        },
+        {
+          "key": "StatsSection",
+          "component": "Stats",
+          "sectionKey": "stats"
+        },
+        {
+          "key": "TestimonialsSection",
+          "component": "Testimonials",
+          "sectionKey": "testimonials"
+        },
+        {
+          "key": "ClientsSection",
+          "component": "Clients",
+          "sectionKey": "clients"
+        },
+        {
+          "key": "BlogsSection",
+          "component": "Blogs",
+          "sectionKey": "blogs"
+        },
+        {
+          "key": "ContactSection",
+          "component": "Contact",
+          "sectionKey": "contact"
+        }
+      ]
+    }
+  },
+  "sections": {
+    "hero": {
+      "slides": [
+        {
+          "eyebrow": "AUREVIA REAL ESTATE & DEVELOPERS",
+          "title_line1": "Crafting Iconic Skylines &",
+          "title_highlight": "Timeless Living",
+          "description": "Experience visionary architectural luxury with bespoke residential penthouses and sustainable developments designed for those who demand unmatched excellence.",
+          "image": "/img/banner.webp",
+          "features": [
+            {
+              "icon": "Building2",
+              "label": "Iconic High-Rise Developments"
+            },
+            {
+              "icon": "Sparkles",
+              "label": "World-Class Architectural Design"
+            }
+          ],
+          "primary_button": {
+            "text": "Explore Properties",
+            "href": "#properties"
+          },
+          "secondary_button": {
+            "text": "Contact Concierge",
+            "href": "#contact"
+          }
+        },
+        {
+          "eyebrow": "PRIVATE ARCHITECTURAL ESTATES",
+          "title_line1": "Bespoke Contemporary Villas &",
+          "title_highlight": "Private Sanctuaries",
+          "description": "Cantilevered glass structures, private infinity reflection pools, and seamless indoor-outdoor sanctuaries tailored to an elevated bespoke lifestyle.",
+          "image": "/img/banner-2.webp",
+          "features": [
+            {
+              "icon": "Home",
+              "label": "Ultra-Luxury Private Villas"
+            },
+            {
+              "icon": "ShieldCheck",
+              "label": "100% Clear Title & Approvals"
+            }
+          ],
+          "primary_button": {
+            "text": "View Villa Collection",
+            "href": "#properties"
+          },
+          "secondary_button": {
+            "text": "Schedule Private Tour",
+            "href": "#contact"
+          }
+        },
+        {
+          "eyebrow": "ELEVATED LUXURY LIVING",
+          "title_line1": "Sky Penthouses With",
+          "title_highlight": "Panoramic Vistas",
+          "description": "Double-height Italian marble interiors, automated smart living, and 360-degree twilight vistas in the city's most coveted prestigious pin codes.",
+          "image": "/img/banner-3.webp",
+          "features": [
+            {
+              "icon": "Eye",
+              "label": "360° Panoramic Skyline Views"
+            },
+            {
+              "icon": "Award",
+              "label": "Award-Winning Craftsmanship"
+            }
+          ],
+          "primary_button": {
+            "text": "Discover Penthouses",
+            "href": "#properties"
+          },
+          "secondary_button": {
+            "text": "Get In Touch",
+            "href": "#contact"
+          }
+        }
+      ]
+    },
+    "about": {
+      "badge_label": "YEARS OF EXCELLENCE",
+      "badge_value": "25+",
+      "badge_note": "LUXURY DEVELOPMENTS",
+      "image": "/img/about.webp",
+      "title_line1": "Pioneering Excellence In Luxury",
+      "title_highlight": "Real Estate & Architecture",
+      "description": "At Aurevia – REAL ESTATE & DEVELOPERS, we create landmark developments that redefine modern city living. Every Aurevia masterwork blends bioclimatic architecture, Italian craftsmanship, and state-of-the-art construction engineering.",
+      "description_secondary": "With over 25 million square feet delivered across prime metropolitan hubs, we partner with world-renowned architects to create generational real estate investments of enduring elegance and supreme value.",
+      "button": {
+        "text": "Connect With Us",
+        "href": "#contact"
+      }
+    },
+    "properties": {
+      "subtitle": "PREMIER REAL ESTATE PORTFOLIO",
+      "title_line1": "Signature Properties &",
+      "title_highlight": "Luxury Developments",
+      "description": "Explore our hand-curated portfolio of ultra-luxury residences, sky villas, private estates, and Grade-A corporate towers designed for prestigious living and superior capital appreciation.",
+      "items": [
+        {
+          "title": "Aurevia Sky Villas",
+          "location": "The Boulevard, Skyline District",
+          "price": "₹14.50 Cr",
+          "price_note": "Starting Price",
+          "status": "Exclusive",
+          "image": "/properties/1.webp",
+          "beds": "4 BHK Penthouse",
+          "baths": "5 Baths",
+          "area": "6,200 sq.ft",
+          "slug": "aurevia-sky-villas",
+          "href": "#contact"
+        },
+        {
+          "title": "The Grand Horizon",
+          "location": "Royal Palms Avenue, Metro Central",
+          "price": "₹8.80 Cr",
+          "price_note": "Onwards",
+          "status": "For Sale",
+          "image": "/properties/2.webp",
+          "beds": "3 & 4 BHK",
+          "baths": "4 Baths",
+          "area": "4,100 sq.ft",
+          "slug": "grand-horizon-residences",
+          "href": "#contact"
+        },
+        {
+          "title": "Aurevia Sovereign Estate",
+          "location": "Pinecrest Hills, Eco Reserve",
+          "price": "₹22.00 Cr",
+          "price_note": "Bespoke Villa",
+          "status": "Private Estate",
+          "image": "/properties/3.webp",
+          "beds": "5 BHK Villa",
+          "baths": "6 Baths",
+          "area": "8,500 sq.ft",
+          "slug": "sovereign-architectural-villa",
+          "href": "#contact"
+        },
+        {
+          "title": "Aurevia Apex Pinnacle",
+          "location": "Financial High Street, Uptown",
+          "price": "₹18.25 Cr",
+          "price_note": "Duplex Penthouse",
+          "status": "Limited Edition",
+          "image": "/properties/4.webp",
+          "beds": "4 BHK Duplex",
+          "baths": "5 Baths",
+          "area": "7,100 sq.ft",
+          "slug": "apex-pinnacle-duplex",
+          "href": "#contact"
+        },
+        {
+          "title": "The Palm Oasis Residences",
+          "location": "Marina Bay Walk, Waterfront",
+          "price": "₹11.90 Cr",
+          "price_note": "Waterfront Vista",
+          "status": "For Sale",
+          "image": "/properties/5.webp",
+          "beds": "3 BHK Luxury",
+          "baths": "3.5 Baths",
+          "area": "3,850 sq.ft",
+          "slug": "palm-oasis-waterfront",
+          "href": "#contact"
+        },
+        {
+          "title": "Aurevia Corporate Towers",
+          "location": "Global Cyber District, Sector 62",
+          "price": "₹32.50 Cr",
+          "price_note": "Commercial Floor",
+          "status": "Grade-A Office",
+          "image": "/properties/6.webp",
+          "beds": "Commercial Hub",
+          "baths": "12 Restrooms",
+          "area": "14,000 sq.ft",
+          "slug": "aurevia-corporate-towers",
+          "href": "#contact"
+        }
+      ]
+    },
+    "stats": {
+      "title": "A Legacy Of Trust, Scale & Excellence",
+      "items": [
+        {
+          "icon": "Home",
+          "value": "1500+",
+          "label": "Luxury Homes Handed Over"
+        },
+        {
+          "icon": "Award",
+          "value": "45+",
+          "label": "International Architecture Awards"
+        },
+        {
+          "icon": "Users",
+          "value": "3500+",
+          "label": "High-Net-Worth Global Families"
+        },
+        {
+          "icon": "FileText",
+          "value": "25+",
+          "label": "Million Sq. Ft. Developed"
+        }
+      ]
+    },
+    "testimonials": {
+      "subtitle": "PATRON TESTIMONIALS",
+      "title_line1": "Trusted By Discerning Investors &",
+      "title_highlight": "Distinguished Homeowners",
+      "description": "Discover how Aurevia – REAL ESTATE & DEVELOPERS has helped global entrepreneurs, business titans, and investors find extraordinary architectural residences.",
+      "items": [
+        {
+          "name": "Vikramaditya Singhania",
+          "role": "Tech Entrepreneur & Penthouse Owner",
+          "image": "/testimonail/amit.webp",
+          "rating": 5,
+          "quote": "Investing in an Aurevia Sky Villa was one of the most seamless real estate decisions I have ever made. The structural craftsmanship, privacy, double-height ceiling proportions, and post-delivery concierge service are truly world-class."
+        },
+        {
+          "name": "Dr. Ananya Roy-Kapoor",
+          "role": "Venture Capital Partner & Investor",
+          "image": "/testimonail/bhargava.webp",
+          "rating": 5,
+          "quote": "Aurevia sets the gold benchmark for real estate development. The transparency of legal titles, timely delivery, and the stunning biophilic design across The Grand Horizon made it a standout asset in my portfolio."
+        },
+        {
+          "name": "Rajeev Oberoi",
+          "role": "Managing Director, Global Equity",
+          "image": "/testimonail/rohit.webp",
+          "rating": 5,
+          "quote": "From our initial private consultation to the keys of our Sovereign Estate villa, the Aurevia executive team displayed unmatched professional pedigree. Exceptional aesthetics and highest construction standards."
+        },
+        {
+          "name": "Marcus Chen",
+          "role": "Managing Partner, Far East Capital",
+          "image": "/testimonail/marcus.webp",
+          "rating": 5,
+          "quote": "The financial yields and capital appreciation on Aurevia's Grade-A commercial and ultra-luxury residential assets have outperformed our expectations. Their architectural vision is truly exceptional."
+        },
+        {
+          "name": "Elena Rostova",
+          "role": "Luxury Architectural Consultant & Homeowner",
+          "image": "/testimonail/elena.webp",
+          "rating": 5,
+          "quote": "As an architect, I scrutinize every micro-finish and structural detail. Aurevia's biophilic integration, private cantilevered infinity pools, and Italian marble detailing represent haute couture in modern living."
+        }
+      ]
+    },
+    "blogs": {
+      "subtitle": "REAL ESTATE INTELLIGENCE & INSIGHTS",
+      "title_line1": "Latest Market Perspectives &",
+      "title_highlight": "Architectural Trends",
+      "description": "Stay informed with curated editorial analysis on high-end property appreciation, biophilic architecture, and interior design innovations.",
+      "button": {
+        "text": "Schedule Consultation",
+        "href": "#contact"
+      },
+      "items": [
+        {
+          "title": "The Rise Of Biophilic Architecture In Luxury Living",
+          "excerpt": "How vertical indoor gardens, living courtyards, and natural daylight integration are redefining modern penthouse well-being.",
+          "category": "Architecture",
+          "date": "October 2026",
+          "image": "/blog/1.webp",
+          "slug": "biophilic-architecture-luxury-living"
+        },
+        {
+          "title": "Strategic Real Estate Allocation For High-Net-Worth Portfolios",
+          "excerpt": "Key indicators driving prime urban property valuation, rental yields, and generational wealth preservation in 2026 and beyond.",
+          "category": "Investment",
+          "date": "September 2026",
+          "image": "/blog/2.webp",
+          "slug": "strategic-real-estate-portfolio-allocation"
+        },
+        {
+          "title": "Bespoke Italian Craftsmanship In Modern Residences",
+          "excerpt": "Travertine stone, bronze louvers, and bespoke joinery: exploring the enduring allure of artisanal interior architectural finishes.",
+          "category": "Interior Design",
+          "date": "September 2026",
+          "image": "/blog/3.webp",
+          "slug": "bespoke-interior-craftsmanship"
+        }
+      ]
+    },
+    "contact": {
+      "subtitle": "CONNECT WITH OUR CONCIERGE",
+      "title_line1": "Begin Your Journey With",
+      "title_highlight": "Aurevia Today",
+      "description": "Schedule a private viewing at our experience center or request a detailed portfolio presentation with our senior investment advisors.",
+      "office_title": "Global Experience Lounge",
+      "office_text": "Experience tactile material samples, interactive 3D scale models of upcoming towers, and discuss bespoke layout customizations with our principal architects.",
+      "image": "/img/contact.webp",
+      "address_label": "Corporate Experience Center",
+      "address": "123 Education Lane, New York, NY 10001",
+      "phone_label": "Private Client Inquiries",
+      "phone": "+100000000000",
+      "phone_secondary": "",
+      "email_label": "Concierge & Advisory",
+      "email": "info@xyz.com",
+      "hours_label": "Advisory Hours",
+      "hours": "Monday to Saturday: 9:00 AM – 7:30 PM",
+      "hours_secondary": "Sunday: By Private VIP Appointment Only",
+      "form_title": "Schedule A Private Consultation",
+      "form_subtitle": "Fill in your details below and our senior luxury property advisor will contact you within 2 business hours.",
+      "button_text": "Submit Request"
+    },
+    "not_found": {
+      "title": "404 - Page Not Found",
+      "description": "The luxury property or page you are looking for does not exist or has been moved.",
+      "button": {
+        "text": "Back to Home",
+        "href": "/"
+      }
+    },
+    "clients": {
+      "subtitle": "OUR CLIENTS",
+      "title_line1": "Trusted by Leading",
+      "title_highlight": "Enterprises & Investors",
+      "description": "Aurevia collaborates with premier institutional funds, corporate conglomerates, and global investors to shape world-class architectural landmarks.",
+      "items": [
+        {
+          "name": "Global Horizon Corp",
+          "image": "/cleint/1.webp"
+        },
+        {
+          "name": "Apex Institutional Fund",
+          "image": "/cleint/2.webp"
+        },
+        {
+          "name": "Skyline Capital",
+          "image": "/cleint/3.webp"
+        },
+        {
+          "name": "Sovereign Heritage Trust",
+          "image": "/cleint/4.webp"
+        },
+        {
+          "name": "Meridian Holdings",
+          "image": "/cleint/5.webp"
+        },
+        {
+          "name": "Vanguard Properties Group",
+          "image": "/cleint/6.webp"
+        },
+        {
+          "name": "Lumiere Wealth Management",
+          "image": "/cleint/7.webp"
+        },
+        {
+          "name": "Crestview Development Corp",
+          "image": "/cleint/8.webp"
+        },
+        {
+          "name": "Pinnacle Urban Assets",
+          "image": "/cleint/9.webp"
+        },
+        {
+          "name": "Highland Capital Partners",
+          "image": "/cleint/10.webp"
+        },
+        {
+          "name": "Sterling Private Equity",
+          "image": "/cleint/11.webp"
+        },
+        {
+          "name": "Grandview Infrastructure",
+          "image": "/cleint/12.webp"
+        },
+        {
+          "name": "Aura Luxury Holdings",
+          "image": "/cleint/13.webp"
+        },
+        {
+          "name": "Summit International Realty",
+          "image": "/cleint/14.webp"
+        },
+        {
+          "name": "Solstice Investment Group",
+          "image": "/cleint/15.webp"
+        },
+        {
+          "name": "Elysium Commercial Trust",
+          "image": "/cleint/16.webp"
+        },
+        {
+          "name": "Omnia Development Bank",
+          "image": "/cleint/17.webp"
+        },
+        {
+          "name": "Zenith Real Assets",
+          "image": "/cleint/18.webp"
+        }
+      ]
+    }
+  }
+}
